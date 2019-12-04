@@ -18,6 +18,8 @@
     
  # Design Pattern Principle
  
+ ## Strategy
+ 
  * 바뀌는 부분은 캡슐화 한다.
  
  * `inherit`보다는 `composition`을 활용한다.
