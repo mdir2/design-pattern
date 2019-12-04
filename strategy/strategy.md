@@ -48,7 +48,7 @@ public class Duck {
 # Solution
 
 ## UML
-![strategy](../strategy/strategy-duck.png)
+![strategy](../strategy/duck/strategy-duck.png)
 
 <br>
 
