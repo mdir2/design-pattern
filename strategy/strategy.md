@@ -1,4 +1,4 @@
-# 1. TOC
+# TOC
 
 ## [Problem](#problem)
 
@@ -14,7 +14,7 @@
 
 <br>
 
-# 2. Problem
+# Problem
 
 __Duck__ 이라는 Model이 있고 `quack()`, `swim()`, `display()` method가 있다.
 `display()`는 abstract method
@@ -45,14 +45,14 @@ public class Duck {
 
 <br>
 
-# 3. Solution
+# Solution
 
-## 3.1. UML
+## UML
 ![strategy](../strategy/strategy-duck.png)
 
 <br>
 
-## 3.2. 인터페이스를 이용한 추상화와 캡슐화
+## 인터페이스를 이용한 추상화와 캡슐화
 
 ```java
 public interface QuackBehavior {
@@ -92,7 +92,7 @@ public class FlyNoWay implements FlyBehavior {
 
 <br>
 
-## 3.3. 추상화한 행동 모듈들을 Duck class에 `Composition`
+## 추상화한 행동 모듈들을 Duck class에 `Composition`
 
 ```java
 public class Duck {
@@ -124,7 +124,7 @@ public class RubberDuck extends Duck {
 
 <br>
 
-## 3.4. 의존주입을 이용 한 `Composition`
+## 의존주입을 이용 한 `Composition`
 
 ```java
 public Duck {
