@@ -1,8 +1,8 @@
 # TOC
 
-## [Problem](#problem)
+## [# Problem](#problem)
 
-## [Solution](#solution)
+## [# Solution](#solution)
 
 * [UML](#uml)
 
