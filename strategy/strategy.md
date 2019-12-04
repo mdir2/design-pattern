@@ -1,20 +1,20 @@
-# TOC
+# 1. TOC
 
-* [Duck](#duck)
+## [Problem](#problem)
 
-    * [Problem](#problem)
+## [Solution](#solution)
 
-    * [Solution](#solution)
+* [UML](#uml)
 
-        * [인터페이스를 이용한 추상화와 캡슐화](#인터페이스를-이용한-추상화와-캡슐화)
+* [인터페이스를 이용한 추상화와 캡슐화](#인터페이스를-이용한-추상화와-캡슐화)
 
-        * [추상화한 행동 모듈들을 Duck class에 `Composition`](#추상화한-행동-모듈들을-duck-class에-composition)
+* [추상화한 행동 모듈들을 Duck class에 `Composition`](#추상화한-행동-모듈들을-duck-class에-composition)
 
-        * [의존주입을 이용 한 `Composition`](#의존주입을-이용-한-composition)
+* [의존주입을 이용 한 `Composition`](#의존주입을-이용-한-composition)
 
 <br>
 
-# Problem
+# 2. Problem
 
 __Duck__ 이라는 Model이 있고 `quack()`, `swim()`, `display()` method가 있다.
 `display()`는 abstract method
@@ -45,9 +45,14 @@ public class Duck {
 
 <br>
 
-# Solution
+# 3. Solution
 
-## 인터페이스를 이용한 추상화와 캡슐화
+## 3.1. UML
+![strategy](../strategy/strategy-duck.png)
+
+<br>
+
+## 3.2. 인터페이스를 이용한 추상화와 캡슐화
 
 ```java
 public interface QuackBehavior {
@@ -87,7 +92,7 @@ public class FlyNoWay implements FlyBehavior {
 
 <br>
 
-## 추상화한 행동 모듈들을 Duck class에 `Composition`
+## 3.3. 추상화한 행동 모듈들을 Duck class에 `Composition`
 
 ```java
 public class Duck {
@@ -119,7 +124,7 @@ public class RubberDuck extends Duck {
 
 <br>
 
-## 의존주입을 이용 한 `Composition`
+## 3.4. 의존주입을 이용 한 `Composition`
 
 ```java
 public Duck {

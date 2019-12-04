@@ -1,13 +1,15 @@
 # Design Pattern
 
-## [Strategy](https://github.com/mdir2/design-pattern/blob/master/strategy.md#TOC)
+## [Strategy](./strategy/strategy.md#TOC)
 
-* [Problem](https://github.com/mdir2/design-pattern/blob/master/strategy.md#problem)
+* [Problem](./strategy/strategy.md#problem)
 
-* [Solution](https://github.com/mdir2/design-pattern/blob/master/strategy.md#solution)
+* [Solution](./strategy/strategy.md#solution)
 
-    * [인터페이스를 이용한 추상화와 캡슐화](https://github.com/mdir2/design-pattern/blob/master/strategy.md#인터페이스를-이용한-추상화와-캡슐화)
+    * [UML](./strategy/strategy.md#uml)
 
-    * [추상화한 행동 모듈들을 Duck class에 `Composition`](https://github.com/mdir2/design-pattern/blob/master/strategy.md#추상화한-행동-모듈들을-duck-class에-composition)
+    * [인터페이스를 이용한 추상화와 캡슐화](./strategy/strategy.md#인터페이스를-이용한-추상화와-캡슐화)
 
-    * [의존주입을 이용 한 `Composition`](https://github.com/mdir2/design-pattern/blob/master/strategy.md#의존주입을-이용-한-composition)
+    * [추상화한 행동 모듈들을 Duck class에 `Composition`](./strategy/strategy.md#추상화한-행동-모듈들을-duck-class에-composition)
+
+    * [의존주입을 이용 한 `Composition`](./strategy/strategy.md#의존주입을-이용-한-composition)
