@@ -1,16 +1,18 @@
 # TOC
 
-## [# Problem](#problem)
+- [Problem](#problem)
 
-## [# Solution](#solution)
+- [Solution](#solution)
 
-* [UML](#uml)
+    - [UML](#uml)
 
-* [인터페이스를 이용한 추상화와 캡슐화](#인터페이스를-이용한-추상화와-캡슐화)
+    - [인터페이스를 이용한 추상화와 캡슐화](#인터페이스를-이용한-추상화와-캡슐화)
+    
+    - [추상화한 행동 모듈들을 Duck class에 `Composition`](#추상화한-행동-모듈들을-duck-class에-composition)
+    
+    - [의존주입을 이용 한 `Composition`](#의존주입을-이용-한-composition)
 
-* [추상화한 행동 모듈들을 Duck class에 `Composition`](#추상화한-행동-모듈들을-duck-class에-composition)
-
-* [의존주입을 이용 한 `Composition`](#의존주입을-이용-한-composition)
+#### [뒤로가기](../README.md)
 
 <br>
 

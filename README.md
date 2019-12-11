@@ -2,17 +2,37 @@
 
 ## [Strategy](./strategy/strategy.md#TOC)
 
-* [Problem](./strategy/strategy.md#problem)
+- [Problem](./strategy/strategy.md#problem)
 
-* [Solution](./strategy/strategy.md#solution)
+- [Solution](./strategy/strategy.md#solution)
 
-    * [UML](./strategy/strategy.md#uml)
+    - [UML](./strategy/strategy.md#uml)
 
-    * [인터페이스를 이용한 추상화와 캡슐화](./strategy/strategy.md#인터페이스를-이용한-추상화와-캡슐화)
+    - [인터페이스를 이용한 추상화와 캡슐화](./strategy/strategy.md#인터페이스를-이용한-추상화와-캡슐화)
 
-    * [추상화한 행동 모듈들을 Duck class에 `Composition`](./strategy/strategy.md#추상화한-행동-모듈들을-duck-class에-composition)
+    - [추상화한 행동 모듈들을 Duck class에 `Composition`](./strategy/strategy.md#추상화한-행동-모듈들을-duck-class에-composition)
 
-    * [의존주입을 이용 한 `Composition`](./strategy/strategy.md#의존주입을-이용-한-composition)
+    - [의존주입을 이용 한 `Composition`](./strategy/strategy.md#의존주입을-이용-한-composition)
+
+## [Observer](./observer/observer.md#TOC)
+
+- [Problem](./observer/observer.md#problem)
+
+    - [시나리오](./observer/observer.md#시나리오)
+
+    - [요약](./observer/observer.md#요약)
+
+    - [문제점](./observer/observer.md#문제점)
+
+- [Solution](./observer/observer.md#solution)
+
+    - [옵저버 패턴의 정의](./observer/observer.md#옵저버-패턴의-정의)
+
+    - [UML](./observer/observer.md#uml)
+
+    - [느슨한 결합(Coupling)](./observer/observer.md#느슨한-결합coupling)
+    
+- [유의사항](./observer/observer.md#유의사항)
     
 <br>
     
