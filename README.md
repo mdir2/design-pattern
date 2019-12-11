@@ -4,6 +4,10 @@
 
 - [Problem](./strategy/strategy.md#problem)
 
+    - [시나리오](./strategy/strategy.md#시나리오)
+
+    - [문제점](./strategy/strategy.md#문제점)
+
 - [Solution](./strategy/strategy.md#solution)
 
     - [UML](./strategy/strategy.md#uml)

@@ -2,12 +2,16 @@
 
 - [Problem](#problem)
 
+    - [시나리오](#시나리오)
+
+    - [문제점](#문제점)
+
 - [Solution](#solution)
 
     - [UML](#uml)
-
-    - [인터페이스를 이용한 추상화와 캡슐화](#인터페이스를-이용한-추상화와-캡슐화)
     
+    - [인터페이스를 이용한 추상화와 캡슐화](#인터페이스를-이용한-추상화와-캡슐화)
+
     - [추상화한 행동 모듈들을 Duck class에 `Composition`](#추상화한-행동-모듈들을-duck-class에-composition)
     
     - [의존주입을 이용 한 `Composition`](#의존주입을-이용-한-composition)
@@ -17,6 +21,8 @@
 <br>
 
 # Problem
+
+## 시나리오
 
 __Duck__ 이라는 Model이 있고 `quack()`, `swim()`, `display()` method가 있다.
 `display()`는 abstract method
@@ -42,6 +48,10 @@ public class Duck {
     public void fly() {...}
 }
 ```
+
+<br>
+
+## 문제점
 
 하지만, __RubberDuck__ 처럼 날 수 없어야 하는 model도 날 수 있게 되는 상황이 발생된다.
 
