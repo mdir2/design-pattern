@@ -39,7 +39,23 @@
 - [유의사항](./observer/observer.md#유의사항)
     
 <br>
+
+## [Decorator](./decorator/decorator.md#TOC)
+
+- [Problem](./decorator/decorator.md#problem)
+
+    - [시나리오](./decorator/decorator.md#시나리오)
+
+    - [문제점](./decorator/decorator.md#문제점)
+
+- [Solution](./decorator/decorator.md#solution)
+
+    - [데코레이터 패턴의 정의](./decorator/decorator.md#데코레이터-패턴의-정의)
     
+    - [UML](./decorator/decorator.md#uml)
+    
+<br>
+
 # Design Pattern Principle
  
 ## Strategy
