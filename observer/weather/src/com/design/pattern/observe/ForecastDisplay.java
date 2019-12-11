@@ -3,11 +3,11 @@ package com.design.pattern.observe;
 public class ForecastDisplay implements Observer, DisplayElement {
 	private float currentPressure = 29.92f;
 	private float lastPressure;
-	private WeatherData weatherData;
+	private Subject weatherData;
 
-	public ForecastDisplay(final WeatherData weatherData) {
+	public ForecastDisplay(final Subject weatherData) {
 		this.weatherData = weatherData;
-		weatherData.registerObserver(this);
+		this.weatherData.registerObserver(this);
 	}
 
 	@Override
