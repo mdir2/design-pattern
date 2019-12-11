@@ -9,6 +9,21 @@ public class DarkRoast extends Beverage {
 
 	@Override
 	public double cost() {
-		return 1.2;
+		double cost = 0.0;
+		switch (getSize()) {
+			case SHORT:
+				cost = 1.2;
+				break;
+			case TALL:
+				cost =  1.7;
+				break;
+			case GRANDE:
+				cost =  2.2;
+				break;
+			case VENTI:
+				cost =  2.7;
+				break;
+		}
+		return cost;
 	}
 }

@@ -1,14 +1,22 @@
 package com.design.pattern.decorator;
 
-import com.design.pattern.decorator.spice.ConidmentDecorator;
-
 public abstract class Beverage {
-	private ConidmentDecorator conidmentDecorator;
-
+	Size size = Size.SHORT;
+	public enum Size {
+		SHORT, TALL, GRANDE, VENTI;
+	}
 	protected String description;
 
 	public String getDescription() {
 		return description;
+	}
+
+	public void setSize(final Size size) {
+		this.size = size;
+	}
+
+	public Size getSize() {
+		return size;
 	}
 
 	public abstract double cost();

@@ -7,11 +7,8 @@ import com.design.pattern.decorator.spice.Whip;
 
 public class Main {
 	public static void main(String[] args) {
-		Beverage beverage = new Espresso();
-		System.out.println(beverage.getDescription() + " $" + beverage.cost());
-
-		beverage = null;
-		beverage = new DarkRoast();
+		Beverage beverage = new DarkRoast();
+		beverage.setSize(Beverage.Size.TALL);
 		beverage = new Mocha(beverage);
 		beverage = new Mocha(beverage);
 		beverage = new Whip(beverage);
