@@ -16,12 +16,16 @@
     
 <br>
     
- # Design Pattern Principle
+# Design Pattern Principle
  
- ## Strategy
+## Strategy
  
- * 바뀌는 부분은 캡슐화 한다.
+* 바뀌는 부분은 캡슐화 한다.
  
- * `inherit`보다는 `composition`을 활용한다.
+* `inherit`보다는 `composition`을 활용한다.
  
- * 구현이 아닌 인터페이스에 맞춰서 프로그래밍한다.
+* 구현이 아닌 인터페이스에 맞춰서 프로그래밍한다.
+
+## Observer
+
+* 서로 상호작용을 하는 객체 사이에서는 가능하면 느슨하게 결합하는 디자인을 사용해야 한다.
