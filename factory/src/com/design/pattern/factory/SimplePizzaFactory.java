@@ -1,6 +1,8 @@
 package com.design.pattern.factory;
 
-import com.design.pattern.factory.pizza.*;
+import com.design.pattern.pizza.*;
+import com.design.pattern.pizza.simple.CheesePizza;
+import com.design.pattern.pizza.simple.PeperoniPizza;
 
 public class SimplePizzaFactory {
     public Pizza createPizza(String type) {
@@ -10,17 +12,7 @@ public class SimplePizzaFactory {
             pizza = new CheesePizza();
         } else if (type.equals("peperoni")) {
             pizza = new PeperoniPizza();
-        } else if (type.equals("clam")) {
-            pizza = new ClamPizza();
-        } else if (type.equals("veggie")) {
-            pizza = new VeggiePizza();
         }
-        
-        pizza.prepare();
-        pizza.bake();
-        pizza.cut();
-        pizza.box();
-        
         return pizza;
     }
 }
