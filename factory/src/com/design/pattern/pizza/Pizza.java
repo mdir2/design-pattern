@@ -1,22 +1,24 @@
 package com.design.pattern.pizza;
 
+import com.design.pattern.ingredient.cheese.Cheese;
+import com.design.pattern.ingredient.clams.Clams;
+import com.design.pattern.ingredient.dough.Dough;
+import com.design.pattern.ingredient.peperoni.Peperoni;
+import com.design.pattern.ingredient.sauce.Sauce;
+import com.design.pattern.ingredient.veggies.Veggies;
+
 import java.util.*;
 
 public abstract class Pizza {
     protected String name;
-    protected String dough;
-    protected String sauce;
-    protected List<String> toppings = new ArrayList();
+    protected Dough dough;
+    protected Sauce sauce;
+    protected Veggies[] veggies;
+    protected Cheese cheese;
+    protected Peperoni peperoni;
+    protected Clams clams;
     
-    public void prepare() {
-        System.out.println("Preparing " + name);
-        System.out.println("Tossing dough...");
-        System.out.println("Adding sauce...");
-        System.out.println("Adding toppings...");
-        for (String topping : toppings) {
-            System.out.println("   " + topping);
-        }
-    }
+    public abstract void prepare();
     
     public void bake() {
         System.out.println("Bake for 25 minutes at 350");
@@ -32,5 +34,14 @@ public abstract class Pizza {
     
     public String getName() {
         return name;
+    }
+    
+    public void setName(final String name) {
+        this.name = name;
+    }
+    
+    @Override
+    public String toString() {
+        return this.getClass().getSimpleName();
     }
 }

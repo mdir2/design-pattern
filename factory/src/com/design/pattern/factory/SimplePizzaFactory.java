@@ -7,11 +7,11 @@ import com.design.pattern.pizza.simple.PeperoniPizza;
 public class SimplePizzaFactory {
     public Pizza createPizza(String type) {
         Pizza pizza = null;
-    
+
         if (type.equals("cheese")) {
-            pizza = new CheesePizza();
+//            pizza = new CheesePizza();
         } else if (type.equals("peperoni")) {
-            pizza = new PeperoniPizza();
+//            pizza = new PeperoniPizza();
         }
         return pizza;
     }
