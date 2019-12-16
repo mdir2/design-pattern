@@ -56,6 +56,16 @@
     
 <br>
 
+## [Factory](./factory/factory.md#TOC)
+
+- [팩토리 메소드 패턴의 정의](#팩토리-메소드-패턴의-정의)
+
+- [추상 팩토리 패턴의 정의](#추상-팩토리-패턴의-정의)
+
+- [주석](#주석)
+
+<br>
+
 # Design Pattern Principle
  
 ## Strategy
@@ -73,3 +83,7 @@
 ## Decorator
 
 *  클래스는 확장에 대해서는 열려 있지만 변경에 대해서는 닫혀 있어야 한다. (Open Close Principle)
+
+## Factory
+
+* 구상클래스에 의존하지 말고 추상화된 것에 의존하라.
